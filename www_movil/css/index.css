@@ -1,0 +1,41 @@
+/** Header ****************/
+.titulo {
+	width: 69% !important;
+	text-align: center;
+	font-size: 24px;
+	margin: 10px auto 10px auto;
+}
+
+/** Acceso ****************/
+.login {
+	margin: 10px auto 0 auto;
+	padding:10px;
+	width: 80%;
+}
+
+#botonLogin {
+	margin-top: 10px;
+}
+
+#loginFail {
+  	display: none;
+  	color: #ff0000;
+  	text-align: center;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+/** Mapa ****************/
+.accesoMapa {
+	margin: 20px auto 0 auto;
+	padding:20px;
+	border-top: 1px dotted grey;
+	width: 80%;
+}
+
+#buscaAlfaExpress {
+	color: #3f73a5;
+  	text-align: center;
+  	margin-left: auto;
+  	margin-right: auto;
+}

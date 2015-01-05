@@ -1,0 +1,64 @@
+#pedidosContenido {
+	padding: 0px !important;
+}
+
+/* Pedido ************/
+#pedidoVacio {
+	width: 100%;
+	text-align: center;
+	margin: 10px;
+}
+
+#divPedido {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: block;
+}
+
+#pedidoDatos {
+	background: lightgrey;
+	border-bottom: 1px solid grey;
+	padding: 5px;
+}
+
+#tablePedido {
+	width: 100%;
+}
+
+#tablePedido .pedidoColIzq {
+	width: 60%;
+}
+
+#tablePedido .tdPrecio {
+	width: 40%;
+	border: 1px dotted grey;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 0 0 0;
+ 	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #eeeeee;
+}
+
+
+/* Lista apuntes *******************/
+#pedidoListaApuntes {
+	padding: 10px;
+	margin: 0;
+}
+
+#tdDelete {
+	width: 45px;
+	padding: 0 0 0 10px;
+}
+
+.columnaIzq {
+	padding: 0 0 0 10px;
+}
+
+.columnaDer {
+	padding: 0 0 0 10px;
+}
