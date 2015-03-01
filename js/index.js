@@ -125,11 +125,7 @@ function tryLogout(id) {
 	},
 	error : function(xhr,textStatus,err)
 	{
-	    alert("readyState: " + xhr.readyState + 
-	    		" responseText: "+ xhr.responseText + 
-	    		" status: " + xhr.status + 
-	    		" text status: " + textStatus + 
-	    		" error: " + err);
+	    alert("Hay problemas de red. Revisa tu configuración e inténtalo más tarde.");
 	}
 	});
 }

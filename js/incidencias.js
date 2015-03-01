@@ -70,11 +70,7 @@ function getIncidencias() {
 		},
 		error : function(xhr,textStatus,err)
 		{
-		    alert("readyState: " + xhr.readyState + 
-		    		" responseText: "+ xhr.responseText + 
-		    		" status: " + xhr.status + 
-		    		" text status: " + textStatus + 
-		    		" error: " + err);
+		    alert("Hay problemas de red. Revisa tu configuración e inténtalo más tarde.");
 		}
 	});
 }
@@ -148,11 +144,7 @@ function getIncidenciasByIdExpendedor(idExpendedor) {
 		},
 		error : function(xhr,textStatus,err)
 		{
-		    alert("readyState: " + xhr.readyState + 
-		    		" responseText: "+ xhr.responseText + 
-		    		" status: " + xhr.status + 
-		    		" text status: " + textStatus + 
-		    		" error: " + err);
+		    alert("Hay problemas de red. Revisa tu configuración e inténtalo más tarde.");
 		}
 	});
 }
@@ -180,11 +172,7 @@ function asignarmeIncidencia(divId) {
 		},
 		error : function(xhr,textStatus,err)
 		{
-		    alert("readyState: " + xhr.readyState + 
-		    		" responseText: "+ xhr.responseText + 
-		    		" status: " + xhr.status + 
-		    		" text status: " + textStatus + 
-		    		" error: " + err);
+		    alert("Hay problemas de red. Revisa tu configuración e inténtalo más tarde.");
 		}
 	});
 }
@@ -205,11 +193,7 @@ function cerrarIncidencia(divId) {
 		},
 		error : function(xhr,textStatus,err)
 		{
-		    alert("readyState: " + xhr.readyState + 
-		    		" responseText: "+ xhr.responseText + 
-		    		" status: " + xhr.status + 
-		    		" text status: " + textStatus + 
-		    		" error: " + err);
+		    alert("Hay problemas de red. Revisa tu configuración e inténtalo más tarde.");
 		}
 	});
 }

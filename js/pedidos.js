@@ -140,11 +140,7 @@ function loadLineasPedido() {
 		},
 		error : function(xhr,textStatus,err)
 		{
-		    alert("readyState: " + xhr.readyState + 
-		    		" responseText: "+ xhr.responseText + 
-		    		" status: " + xhr.status + 
-		    		" text status: " + textStatus + 
-		    		" error: " + err);
+		    alert("Hay problemas de red. Revisa tu configuración e inténtalo más tarde.");
 		}
 		});
 	}
@@ -165,11 +161,7 @@ function crearPedido() {
 	},
 	error : function(xhr,textStatus,err)
 	{
-	    alert("readyState: " + xhr.readyState + 
-	    		" responseText: "+ xhr.responseText + 
-	    		" status: " + xhr.status + 
-	    		" text status: " + textStatus + 
-	    		" error: " + err);
+	    alert("Hay problemas de red. Revisa tu configuración e inténtalo más tarde.");
 	}
 	});
 }
@@ -185,11 +177,7 @@ function actualizarPedido(strId) {
 	success : function(response) {},
 	error : function(xhr,textStatus,err)
 	{
-	    alert("readyState: " + xhr.readyState + 
-	    		" responseText: "+ xhr.responseText + 
-	    		" status: " + xhr.status + 
-	    		" text status: " + textStatus + 
-	    		" error: " + err);
+	    alert("Hay problemas de red. Revisa tu configuración e inténtalo más tarde.");
 	}
 	});
 }
@@ -205,11 +193,7 @@ function addLineaPedido(strIdPedido, strIdApuntes) {
 	success : function(response) {},
 	error : function(xhr,textStatus,err)
 	{
-	    alert("readyState: " + xhr.readyState + 
-	    		" responseText: "+ xhr.responseText + 
-	    		" status: " + xhr.status + 
-	    		" text status: " + textStatus + 
-	    		" error: " + err);
+	    alert("Hay problemas de red. Revisa tu configuración e inténtalo más tarde.");
 	}
 	});
 }
@@ -225,11 +209,7 @@ function actualizarLineasPedido(strIdPedido) {
 	success : function(response) {},
 	error : function(xhr,textStatus,err)
 	{
-	    alert("readyState: " + xhr.readyState + 
-	    		" responseText: "+ xhr.responseText + 
-	    		" status: " + xhr.status + 
-	    		" text status: " + textStatus + 
-	    		" error: " + err);
+	    alert("Hay problemas de red. Revisa tu configuración e inténtalo más tarde.");
 	}
 	});
 }
